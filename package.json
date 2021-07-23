@@ -1,0 +1,26 @@
+{
+  "name": "curriculo",
+  "version": "1.0.0",
+  "description": "Curriculo ",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WILDLB/curriculo.git"
+  },
+  "author": "William de Lima Barbosa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WILDLB/curriculo/issues"
+  },
+  "homepage": "https://github.com/WILDLB/curriculo#readme"
+}
