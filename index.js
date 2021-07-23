@@ -10,7 +10,7 @@ app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
 
 app.get("/", (req, res) => {
-    res.render('index.js')
+    res.render('index.ejs')
 });
 
 app.listen(process.env.PORT || 3000, () => {
