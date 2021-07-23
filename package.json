@@ -15,7 +15,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node index.js"
+    "start": "node app.js",
+    "test" : "echo \"Error: no test especified\" && exit 1"
   },
   "repository": {
     "type": "git",
