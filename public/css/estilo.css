@@ -8,6 +8,7 @@
 body {
    margin: 0; 
    font-family: Arial, Helvetica, sans-serif;
+   background-color: #ddd;
 }
 
 h3 {
@@ -26,7 +27,7 @@ h3 {
 /*About*/
 
 .about-section{
-    background: linear-gradient(rgba(0,0,0,.60), rgba(0,0,0,.60)100%),url('../img/capa.jpeg');
+    background: linear-gradient(rgba(52,152,219,.60), rgba(52,152,219,.60)100%),url('../img/capa.jpeg');
 
     margin-left: auto;
     margin-right: auto;  
@@ -38,7 +39,6 @@ h3 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
 }
 
 .about-section .title {
@@ -65,10 +65,11 @@ h3 {
 }    
 
 #experience-section{
-    background-color: #ddd;
+   
     width: 100%;
     margin-left: auto;
     margin-right: auto;  
+    
    
 }
 
@@ -79,24 +80,24 @@ h3 {
 }
 
 .experience-container {
-    background-color:#000408;
-    color: #ffff;
+    
+   
     text-align: center;
     padding: 30px;
-    border: 1px solid #ddd;
+    
     border-radius: 10px;
     margin-bottom: 10px;
 }
 
 #education-section {
-    background-color: #ddd;
+   
     width:100%;
     margin-left: auto;
     margin-right: auto;     
 }
 
 #education-section .col-sm {
-    background-color:#000408;
+    background-color:#3498db;
     color: #ffff;
     text-align: center;
     padding: 30px;
@@ -120,11 +121,9 @@ h3 {
 }
 
 #skills-section {
-    background-color: #ddd;
     width:100%;
     margin-left: auto;
-    margin-right: auto; 
-    
+    margin-right: auto;     
 }
 
 #skills-section .container {
@@ -133,17 +132,12 @@ h3 {
 }
 
 #skills-section .col-sm {
-    background-color:#000408;
-    color: #ffff;
     text-align: center;
     padding: 30px;
-    border: 1px solid #ddd;
     border-radius: 10px;
-    margin-bottom: 20px; 
     display: flex;
     flex-direction: column;
-    justify-content: center; 
-        
+    justify-content: center;        
 }
 
 .col-sm .container-icon i {
@@ -152,7 +146,7 @@ h3 {
 }
 
 footer{
-    background-color:#000408;
+    background-color:#3498db;
     width: 100%;
     margin-left: auto;
     margin-right: auto; 
